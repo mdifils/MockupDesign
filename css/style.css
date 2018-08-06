@@ -1,0 +1,118 @@
+body {
+    box-sizing: border-box;
+    margin: 8px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1, .box1, .box5 {
+    width: 25%;
+}
+.container2, .box4 {
+    width: 75%;
+}
+.box2 {
+    width: 50%;
+}
+.box3, .boxy {
+    width: 100%;
+    text-align: center;
+}
+.box6 {
+    width: 33.33%;
+    line-height: 1px;
+    text-align: center;
+}
+.box1, .box2, .box3, .box6 {
+    height: 100px;
+}
+.box4 {
+    height: 295px;
+}
+.box5 {
+    height: 200px;
+}
+.coral {
+    /* background: coral; */
+}
+.cyan {
+    /* background: cyan; */
+    text-align: right;
+    line-height: 6%;
+}
+.gold {
+    /* background: gold; */
+}
+.gray {
+    /* background: gray; */
+}
+.indigo {
+    /* background: indigo; */
+}
+.khaki {
+    /* background: khaki; */
+}
+.lime {
+    /* background: lime; */
+    margin-top: 5px;
+}
+.magenta {
+    /* background: magenta; */
+}
+.maroon {
+    /* background: maroon; */
+}
+.navy {
+    /* background: navy; */
+}
+.olive {
+    /* background: olive; */
+}
+.tomato {
+    /* background: tomato; */
+}
+.tan {
+    /* background: tan; */
+}
+#logo, #beach {
+    width: 100%;
+    height: 100%;
+}
+.img {
+    width: 90%;
+    height: 70%;
+}
+hr {
+    margin-left: 25%;
+}
+.box {
+    width: 60%;
+    height: 60%;
+    line-height: 1px;
+    margin:auto;
+}
+.img1 {
+    background: #02b3e4;
+}
+.img2 {
+    background: #2d3c49;
+}
+.img3 {
+    background: #7d97ad;
+}
+@media screen and (min-width: 950px) {
+    body {
+        width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cyan {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 450px) {
+    .cyan {
+        font-size: 0.75em;
+    }
+}
